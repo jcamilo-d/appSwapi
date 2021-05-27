@@ -1,0 +1,7 @@
+{
+  "name": "AppEspejo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

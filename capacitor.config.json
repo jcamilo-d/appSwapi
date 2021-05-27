@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "AppEspejo",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

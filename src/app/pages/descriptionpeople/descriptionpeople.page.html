@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back"></ion-back-button>
+    </ion-buttons>
+    <ion-title>PERSONAJE</ion-title> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-icon name ="happy-outline" slot= "start"></ion-icon>
+    <h2>{{people.name}}</h2>
+  </ion-item>
+<ion-card>
+  <ion-item>
+    <ion-icon name ="transgender-outline" slot= "start"></ion-icon>
+    <ion-label><b>{{people.gender}}</b></ion-label>
+  </ion-item>
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <p><b>Altura: </b></p>
+          <p><i>{{people.height}}</i></p>
+        </ion-col>
+        <ion-col>
+          <p><b>Color de Piel: </b></p>
+          <p><i>{{people.skin_color}}</i></p>
+        </ion-col>
+        <ion-col>
+          <p><b>Color de Cabello: </b></p>
+          <p><i>{{people.hair_color}}</i></p>
+        </ion-col>
+        <ion-col>
+          <p><b>Color de ojos: </b></p>
+          <p><i>{{people.eye_color}}</i></p>
+        </ion-col>
+        <ion-col>
+          <p><b>Año de Nacimiento: </b></p>
+          <p><i>{{people.birth_year}}</i></p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>
+</ion-content>
+
+

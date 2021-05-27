@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="" icon="arrow-back"></ion-back-button>
+    </ion-buttons>
+    <ion-title>NAVE</ion-title> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-icon name ="rocket" slot= "start"></ion-icon>
+    <h2>{{starships.name}}</h2>
+  </ion-item>
+<ion-card>
+  <ion-item>
+    <ion-icon name ="cog" slot= "start"></ion-icon>
+    <ion-label><b>{{starships.model}}</b></ion-label>
+  </ion-item>
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <p><b>Fabricante: </b></p>
+          <p><i>{{starships.manufacturer}}</i></p>
+        </ion-col>
+        <ion-col>
+          <p><b>Velocidad Maxima: </b></p>
+          <p><i>{{starships.max_atmosphering_speed}}</i></p>
+        </ion-col>
+        <ion-col>
+          <p><b>Capacidad de Carga: </b></p>
+          <p><i>{{starships.cargo_capacity}}</i></p>
+        </ion-col>
+        <ion-col>
+          <p><b>Tripulacion: </b></p>
+          <p><i>{{starships.crew}}</i></p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>
+</ion-content>
